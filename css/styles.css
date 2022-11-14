@@ -1,0 +1,193 @@
+body {
+  font-family: "Montserrat";
+  text-align: center
+}
+
+h1, h2, h3 {
+  /* font-family: "Montserrat-Black" */
+  font-family: "Ubuntu";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+/* add cta to big-heading class */
+.big-heading{
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.section-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding:  7% 15%;
+}
+
+ /* Section */
+.colored-section{
+
+}
+
+.white-section{
+  
+}
+
+
+
+/* Navigation Bar */
+
+nav{
+  background-color: #DB7093;
+}
+
+.navbar{
+  /* padding-bottom: 4.5rem; */
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+   font-size: 1.2rem;
+}
+
+  /* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Tittle Section */
+
+#title{
+  background-color: #DB7093;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+/* Tittle Image */
+.tittle-image{
+   width: 50%;
+   /* transform: rotate(21deg);
+   position: absolute; */
+   overflow: hidden;
+   transition-duration: 1s;
+   transition-property: transform;
+}
+.tittle-image:hover{
+   transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+}
+
+/* Features Section */
+#features{
+   background-color: #fff;
+   position: relative;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+
+}
+
+.feature-box{
+  padding: 4.5%;
+}
+.icon{
+  color: #DB7093;
+}
+.icon:hover{
+  color: #FFD700;
+}
+
+/* Testimonials Section */
+#testimonials{
+  font-family: "Ubuntu";
+  background-color: #87CEFA;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+
+
+#press{
+  background-color: #87CEFA;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+  overflow: hidden;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  font-family: "Ubuntu";
+}
+
+.pricing-colmun{
+  padding: 3% 2%;
+}
+
+.price-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* CTA Section */
+#cta{
+  background-color: #DB7093;
+  color: #fff;
+
+}
+
+/* Footer Section */
+
+#footer{
+    padding: 3% 15% 7%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+
+  }
+}
